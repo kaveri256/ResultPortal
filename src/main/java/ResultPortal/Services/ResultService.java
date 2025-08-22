@@ -2,7 +2,7 @@ package ResultPortal.Services;
 
 import ResultPortal.Models.SatResult;
 import ResultPortal.Repository.ResultRepository;
-import ResultPortal.Strategy.FilterStrategy;
+import ResultPortal.Services.Strategy.FilterStrategy;
 
 import java.util.ArrayList;
 import java.util.Comparator;

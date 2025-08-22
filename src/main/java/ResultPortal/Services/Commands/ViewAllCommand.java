@@ -1,4 +1,4 @@
-package ResultPortal.Commands;
+package ResultPortal.Services.Commands;
 
 import ResultPortal.Models.SatResult;
 import ResultPortal.Services.ResultService;

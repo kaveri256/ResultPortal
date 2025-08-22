@@ -1,23 +1,21 @@
-package ResultPortal.Commands;
+package ResultPortal.Services.Commands;
 
 import ResultPortal.Data.DataStore;
 import ResultPortal.Services.ResultService;
 
 import java.util.Scanner;
 
-public class UpdateCommand implements Command{
+public class DeleteCommand implements Command{
     private ResultService service;
     private Scanner sc;
-    public UpdateCommand(ResultService service, Scanner sc) {
+    public DeleteCommand(ResultService service, Scanner sc) {
         this.service = service; this.sc = sc;
     }
     @Override
     public void execute() {
         System.out.print("Enter name: "); String nm = sc.nextLine();
-        System.out.print("New score: "); int score = sc.nextInt();
-        sc.nextLine();
-        service.updateScore(nm, score);
+        service.deleteRecord(nm);
         DataStore.save(service.viewAll());
-        System.out.println("Updated successfully!");
+        System.out.println("Deleted successfully!");
     }
 }

@@ -1,8 +1,8 @@
-package ResultPortal.Commands;
+package ResultPortal.Services.Commands;
 
 import ResultPortal.Services.ResultService;
-import ResultPortal.Strategy.FailFilter;
-import ResultPortal.Strategy.PassFilter;
+import ResultPortal.Services.Strategy.FailFilter;
+import ResultPortal.Services.Strategy.PassFilter;
 
 import java.util.Scanner;
 

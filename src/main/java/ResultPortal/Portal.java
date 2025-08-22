@@ -1,9 +1,8 @@
 package ResultPortal;
 
-import ResultPortal.Commands.*;
 import ResultPortal.Data.DataStore;
-import ResultPortal.Models.SatResult;
 import ResultPortal.Repository.ResultRepository;
+import ResultPortal.Services.Commands.*;
 import ResultPortal.Services.ResultService;
 
 import java.util.HashMap;

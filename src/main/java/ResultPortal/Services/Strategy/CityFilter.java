@@ -1,4 +1,4 @@
-package ResultPortal.Strategy;
+package ResultPortal.Services.Strategy;
 
 import ResultPortal.Models.SatResult;
 
