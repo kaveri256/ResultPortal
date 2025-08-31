@@ -39,7 +39,7 @@ public class Portal {
             System.out.println("6. Calculate Average SAT Score");
             System.out.println("7. Filter records by Pass/Fail");
             System.out.println("8. Exit");
-            System.out.print("Enter choice: ");
+            System.out.print("Enter your choice: ");
             // consume newline
 
             try {
